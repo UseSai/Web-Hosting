@@ -1,3 +1,8 @@
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Poppins", sans-serif;
+}
+
 *, *::after, *::before {
     box-sizing: border-box;
     padding: 0;
@@ -15,7 +20,78 @@ ul {
 
 .container {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1285px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.header {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    padding-bottom: 80px;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header__logo {
+    margin-right: 65px;
+}
+
+.header__our-services {
+    margin-right: 135px;
+    padding-top: 8px;
+}
+
+.header__our-services::after {
+    content: "";
+    display: block;
+    border-radius: 10px;
+    width: 72px;
+    height: 2px;
+    background: #b00000;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 35px;
+}
+
+.header__nav-button {
+
+}
+
+.header__call {
+    padding-left: 200px;
+    display: flex;
+    gap: 30px
+}
+
+.header__call-account {
+
+}
+
+.header__call-separator {
+    border-left: 1px solid #dad8d8;
+    width: 1px;
+    height: 19px;
+    background: #dad8d8;
+}
+
+.header__call-phone, .header__call-phone img {
+    vertical-align: middle;
+}
+
