@@ -87,24 +87,12 @@ ul {
     vertical-align: middle;
 }
 
-.main {
-
-}
-
-.hero {
-
-}
-
 .hero__container {
     width: 100%;
     max-width: 1215px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
-}
-
-.hero__left-col {
-
 }
 
 .hero__bread-crunch {
@@ -125,10 +113,6 @@ ul {
     font-weight: 600;
     font-size: 15px;
     color: #b00000;
-}
-
-.hero__bread-inactive {
-    
 }
 
 .hero__title {
@@ -189,4 +173,88 @@ ul {
 .hero__right-col {
     padding-top: 30px;
     padding-left: 55px;
+}
+
+.whyus {
+    
+}
+
+.whyus__container {
+    width: 100%;
+    max-width: 1285px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.whyus__top-line {
+    padding-top: 80px;
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+}
+
+.whyus__left-col {
+    
+}
+
+.whyus__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 133%;
+    color: #18191f;
+    max-width: 595px;
+    white-space: nowrap;
+}
+
+.whyus__subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: #18191f;
+    max-width: 575px;
+    padding-top: 45px;
+}
+
+.whyus__right-col {
+
+}
+
+.whyus__partners {
+    padding-top: 22px;
+    max-width: 615px;
+    margin: 0 auto;
+}
+
+.whyus__partners img {
+    padding: 10px;
+    text-align: center;
+}
+
+.partners__row {
+    display: flex;
+    justify-content: center; /* Центрируем 3 объекта в строке */
+    margin-bottom: 40px;
+}
+
+.partners__row img {
+    height: auto; /* Сохраняет пропорции */
+    object-fit: contain;
+}
+
+.whyus__bottom-line {
+    
+}
+
+.whyus__advantages {
+    
+}
+
+.advantages__title {
+    
+}
+
+.advantages__subtitle
+ {
 }
