@@ -191,6 +191,7 @@ ul {
     display: flex;
     gap: 95px;
     justify-content: center;
+    padding-bottom: 65px;
 }
 
 .whyus__left-col {
@@ -234,27 +235,37 @@ ul {
 
 .partners__row {
     display: flex;
-    justify-content: center; /* Центрируем 3 объекта в строке */
+    justify-content: center;
     margin-bottom: 40px;
 }
 
 .partners__row img {
-    height: auto; /* Сохраняет пропорции */
+    height: auto;
     object-fit: contain;
 }
 
 .whyus__bottom-line {
-    
+    display: flex;
+    gap: 53px;
 }
 
 .whyus__advantages {
-    
+    text-align: center;
 }
 
 .advantages__title {
-    
+    padding-top: 10px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
 }
 
-.advantages__subtitle
- {
+.advantages__subtitle {
+    padding-top: 5px;
+    font-family: var(--second-family);
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
 }
