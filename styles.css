@@ -553,6 +553,7 @@ ul {
     position: relative;
     left: 635px;
     top: -560px;
+    margin-bottom: -560px;
 }
 
 .lob__small {
@@ -584,10 +585,10 @@ ul {
 }
 
 .testimonials__partners {
-    position: relative;
-    top: -455px;
+    padding-top: 105px;
     display: flex;
     gap: 250px;
+    align-items: center;
 }
 
 .testimonials__partners-left-col {
@@ -613,16 +614,71 @@ ul {
 }
 
 .testimonials__partners-right-col {
-
 }
 
 .testimonials__partners-row {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+}
+
+.testimonials__partners-row1 {
+    margin-bottom: 50px;
 }
 
 .testimonials__partners-row img {
     height: auto;
     object-fit: contain;
+}
+
+.cta {
+    padding-top: 105px;
+    
+}
+
+.cta__container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #f7fafe;
+    padding-bottom: 90px;
+}
+
+.cta__title {
+    padding-top: 80px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 137%;
+    text-align: center;
+    color: #2e2e2e;
+    padding-bottom: 40px;
+}
+
+.cta__contact-button {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    width: 208px;
+    height: 48px;
+    background: #b00000;
+}
+
+.cta__contact-button img {
+
+}
+
+.cta__contact-button p {
+
 }
